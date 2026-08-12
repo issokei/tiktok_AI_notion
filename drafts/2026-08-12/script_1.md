@@ -1,29 +1,29 @@
-# 世界の理解できない「奇妙な法律」ベスト3
+# 世界の「理解できないお葬式文化」ベスト3
 
 ## 冒頭オーバーレイテキスト
-これ、本当に法律です
+死者と一晩中踊る村がある
 
 ## 台本(ナレーション全文)
-世界には、聞いただけでは信じられないルールが今も現役で存在する。第3位、シンガポールのガム禁止法。1992年から輸入・販売・所持が原則禁止されており、違反すると罰金だけでなく懲役の可能性もある。きっかけは地下鉄のドアにガムを詰められる悪質ないたずらが相次いだことだった。第2位、フランスの豚の名前規制。かつてフランスでは豚に「ナポレオン」と名付けることが法律で禁じられていた時期があった。歴代の権威ある人物の名を家畜につけることが不敬とされたためで、実際に取り締まりの記録も残っている。そして第1位、イギリスの死者への切手貼付規制。イギリスでは、女王や国王の肖像が印刷された切手を、逆さまに貼ると不敬罪にあたる可能性があるという不文律が長年語り継がれてきた。真偽については議論があるものの、多くの国民が今も律儀にこの慣習を守っている。法律とは本来、社会の秩序を守るために作られるはずのものだ。しかし時に、その土地の歴史や国民感情が、私たちの想像を超えたルールを生み出してしまう。次にどんな国のどんな法律に出会うか、あなたも調べてみてほしい。
+世界には死を悲しむのではなく、盛大に祝う文化が存在する。今日はその中でも特に理解しがたい葬送文化ベスト3を紹介する。第3位、ガーナの「デザイン棺桶」。魚の形、飛行機の形、コーラの瓶の形など、故人の職業や好きだったものを模した棺桶に入れて埋葬する風習があり、棺桶職人は生前に注文を受けることもある。第2位、インドネシア・トラジャ族の「マネネ」。数年に一度、遺体を墓から掘り出して洗い、新しい服を着せて村を歩かせるという儀式が今も続いている。遺族にとっては死者との再会の時間であり、恐怖ではなく愛情の表現とされている。そして第1位、マダガスカルの「ファマディハナ」。遺骨を布に包んで担ぎ、音楽に合わせて墓の周りを踊りながら練り歩く。これは「死者を呼び戻す儀式」ではなく「感謝を伝える儀式」とされ、参加者は涙より笑顔で送り出す。文化が違えば、死との向き合い方もまるで別の生き物のように変わる。あなたの国の「当たり前」も、誰かにとっては理解できない儀式なのかもしれない。
 
 ## Nano Banana 画像生成プロンプト
-1. A dramatic world map glowing at night with mysterious red pins marking strange locations, cinematic lighting
-2. Close-up of an old law book with dust particles floating in dim library light
-3. Singapore MRT subway door with chewing gum stuck on it, gritty realistic photo style
-4. A stern customs officer confiscating a pack of chewing gum at an airport counter, dramatic lighting
-5. Singapore skyline at dusk with a subtle warning sign silhouette in foreground
-6. A pink pig standing in a rustic French farmyard, golden hour lighting
-7. An old French government building facade with vintage flag, sepia tone
-8. Vintage handwritten legal document with quill pen, close-up shot
-9. A British postage stamp with a royal portrait, extreme macro shot, dramatic shadow
-10. An elegant old English postbox on a cobblestone street, foggy atmosphere
-11. Hands carefully placing a stamp upside down on an envelope, tension in lighting
-12. A mysterious silhouette closing an ancient law book, cinematic finale shot
+1. A misty village at dusk with silhouettes of people carrying something wrapped in cloth, mysterious atmosphere, cinematic lighting
+2. Close-up of an old wooden coffin workshop, tools scattered, warm lantern light, dusty air
+3. A colorful fish-shaped coffin painted vividly, standing in a rural African workshop, sunlight streaming through window
+4. An airplane-shaped coffin displayed outside a small village house, curious onlookers in the background, warm tone
+5. A traditional Indonesian stone tomb carved into a cliffside, surrounded by green hills, soft golden hour light
+6. Villagers gently unwrapping ancestral remains from cloth, respectful atmosphere, muted earthy colors
+7. A procession of people walking through a village holding wrapped remains, traditional clothing, dusty road
+8. A Madagascar landscape with tombs on a hill, cloudy dramatic sky, wide shot
+9. People dancing joyfully around a tomb, colorful fabrics flying, festive but respectful mood
+10. Close-up of hands wrapping a bundle of cloth with care, candlelight, emotional warm tone
+11. A wide aerial shot of a village celebration at dusk, bonfires and dancing figures, mysterious yet warm atmosphere
+12. A single tomb standing alone in misty morning light, quiet and contemplative mood, ending shot
 
 ## 投稿文・ハッシュタグ
-まだまだある世界の変な法律、続きは次回投稿で紹介します。見逃したくない人は今のうちにフォローしておいてください。
+死を「終わり」ではなく「祝い」と捉える文化、あなたはどう思う?続きが気になる人はフォローして次の「世界の不思議」も見てね
 
-#雑学 #世界の法律 #海外の反応 #ランキング #トリビア #知らないと損
+#世界の不思議 #葬送文化 #雑学 #ランキング #海外の風習 #マダガスカル #トラジャ族
 
 ## 投稿前チェックリスト
 - [ ] 動画尺が60秒以上あるか(Creator Rewards Program対象条件)
