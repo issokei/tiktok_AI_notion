@@ -1,27 +1,29 @@
-# きさらぎ駅ではない、もう一つの「異界駅」の話
+# 世界の理解できない「奇妙な法律」ベスト3
 
 ## 冒頭オーバーレイテキスト
-存在しない駅で降りた男の記録
+これ、本当に法律です
 
 ## 台本(ナレーション全文)
-2000年代初頭、ある鉄道掲示板に投稿された話がある。投稿者は深夜、私鉄の終電で帰宅する途中、うたた寝をしてしまった。目を覚ますと車内には誰もおらず、電車は見知らぬ無人駅に停車していた。駅名標には掠れた文字で読めない駅名が書かれていたという。不安になり電車を降りると、扉はすぐに閉まり発車してしまった。ホームには濃い霧が漂い、街灯は等間隔で点滅していた。改札に向かうと、駅員らしき人影が立っていたが、顔がはっきり見えなかった。投稿者は「戻れますか」と尋ねたが、返ってきたのは駅名でも道順でもなく、ある一言だった。その一言を書いた直後、投稿者のアカウントは更新されなくなった。数年後、同じ駅名を目撃したという別の投稿がひとつだけ見つかっている。
+世界には、聞いただけでは信じられないルールが今も現役で存在する。第3位、シンガポールのガム禁止法。1992年から輸入・販売・所持が原則禁止されており、違反すると罰金だけでなく懲役の可能性もある。きっかけは地下鉄のドアにガムを詰められる悪質ないたずらが相次いだことだった。第2位、フランスの豚の名前規制。かつてフランスでは豚に「ナポレオン」と名付けることが法律で禁じられていた時期があった。歴代の権威ある人物の名を家畜につけることが不敬とされたためで、実際に取り締まりの記録も残っている。そして第1位、イギリスの死者への切手貼付規制。イギリスでは、女王や国王の肖像が印刷された切手を、逆さまに貼ると不敬罪にあたる可能性があるという不文律が長年語り継がれてきた。真偽については議論があるものの、多くの国民が今も律儀にこの慣習を守っている。法律とは本来、社会の秩序を守るために作られるはずのものだ。しかし時に、その土地の歴史や国民感情が、私たちの想像を超えたルールを生み出してしまう。次にどんな国のどんな法律に出会うか、あなたも調べてみてほしい。
 
 ## Nano Banana 画像生成プロンプト
-1. A late-night train interior, empty seats, dim fluorescent light, eerie quiet atmosphere
-2. A sleepy passenger with head resting against the train window, blurred motion outside
-3. An unfamiliar train platform shrouded in thick fog, faint outline of a station sign
-4. Close-up of a station name plate with illegible, blurred characters
-5. Train doors closing, red taillights disappearing into darkness down the tracks
-6. Empty platform with flickering street lamps in a rhythmic pattern
-7. A shadowy figure standing near a ticket gate, face obscured by mist
-8. A hand reaching out in the fog, silhouette barely visible
-9. Old internet forum screenshot style image, faded text, eerie glow from monitor
-10. A dark empty train station at night, viewed from a distance, entrance swallowed by fog
+1. A dramatic world map glowing at night with mysterious red pins marking strange locations, cinematic lighting
+2. Close-up of an old law book with dust particles floating in dim library light
+3. Singapore MRT subway door with chewing gum stuck on it, gritty realistic photo style
+4. A stern customs officer confiscating a pack of chewing gum at an airport counter, dramatic lighting
+5. Singapore skyline at dusk with a subtle warning sign silhouette in foreground
+6. A pink pig standing in a rustic French farmyard, golden hour lighting
+7. An old French government building facade with vintage flag, sepia tone
+8. Vintage handwritten legal document with quill pen, close-up shot
+9. A British postage stamp with a royal portrait, extreme macro shot, dramatic shadow
+10. An elegant old English postbox on a cobblestone street, foggy atmosphere
+11. Hands carefully placing a stamp upside down on an envelope, tension in lighting
+12. A mysterious silhouette closing an ancient law book, cinematic finale shot
 
 ## 投稿文・ハッシュタグ
-その「一言」が気になった人だけ、続きを見に来てください——結末は次回投稿で。
+まだまだある世界の変な法律、続きは次回投稿で紹介します。見逃したくない人は今のうちにフォローしておいてください。
 
-#都市伝説 #きさらぎ駅 #異界駅 #怖い話 #ミステリー #不思議な話 #都市伝説解説 #ホラー好き
+#雑学 #世界の法律 #海外の反応 #ランキング #トリビア #知らないと損
 
 ## 投稿前チェックリスト
 - [ ] 動画尺が60秒以上あるか(Creator Rewards Program対象条件)

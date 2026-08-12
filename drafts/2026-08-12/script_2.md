@@ -1,27 +1,27 @@
-# 神隠しに遭った村人が20年後に発見された時、彼は一言も老けていなかった
+# 消えたトンネルの中に今も立つ、あの白い看板の話
 
 ## 冒頭オーバーレイテキスト
-20年前に消えた男が、あの姿で戻ってきた
+「そのトンネル、まだ通れますか」
 
 ## 台本(ナレーション全文)
-1998年、山間のある村で一人の男性が山菜採りに出たまま姿を消した。捜索は打ち切られ、家族は葬儀まで済ませていた。事件は完全に風化していた。しかし2018年の秋、隣の県の山中で彼は発見された。問題はその姿だった。20年経っているにも関わらず、彼の顔立ちや体格は失踪当時とほとんど変わっていなかったという。発見時に着ていた服も、20年前に着ていたものと同一だったと目撃者は語る。保護された彼は「山の中で誰かに呼ばれて、少し眠っていただけだ」としか言わなかった。医師の診断では、彼の体内時計にも異常な数値が記録されていたという。彼はその後、家族との再会を果たすことなく、再び姿を消したまま今も見つかっていない。
+1980年代、ある山間部の県道に一本のトンネルがあった。地元では「行きはよいよい」のトンネルと呼ばれ、入り口には手書きの白い看板が立っていた。書かれていたのは「引き返せ」という三文字だけ。理由を知る者はいなかったが、そのトンネルで車の事故が絶えなかったことは事実として記録されている。やがて道路整備でトンネルは封鎖され、新しいバイパスが作られた。地図からも名前が消え、存在自体が忘れられていった。しかし数年前、廃道マニアの間である写真が拡散された。封鎖されたはずのトンネルの奥、暗闇の中に、あの白い看板がまだ立っていたというのだ。しかも看板の文字は、以前とは違う言葉に書き換えられていた。「もう遅い」と。撮影者はその後、行方が分からなくなっている。
 
 ## Nano Banana 画像生成プロンプト
-1. A misty mountain trail in rural Japan, overgrown with wild plants, eerie silence, muted green tones
-2. A traditional Japanese village from the late 1990s, quiet houses, foggy morning light
-3. A missing person poster faded and torn, pinned to a wooden utility pole
-4. A small Buddhist altar with a photo and incense, dim candlelight, solemn atmosphere
-5. Deep forest with unnaturally still air, shafts of pale light breaking through trees
-6. A man's silhouette standing motionless among tall trees, back turned, foggy atmosphere
-7. Worn clothing hanging on a branch in the woods, slightly tattered but oddly clean
-8. A hospital corridor at night, flickering fluorescent light, sense of unease
-9. An old clock with distorted hands, symbolic of broken time, dark background
-10. An empty mountain path disappearing into thick fog, sense of something watching
+1. A narrow mountain road leading into a dark tunnel entrance, foggy atmosphere, 1980s Japan aesthetic, muted colors
+2. A weathered white wooden signboard with faded handwritten Japanese-style text, standing alone at a tunnel entrance
+3. An old sedan car driving into a misty tunnel at dusk, taillights glowing red
+4. A newspaper clipping style image showing an accident report, blurred and aged texture
+5. A newly built highway bypass curving away from an old abandoned road, contrast of old and new
+6. An overgrown, forgotten tunnel entrance covered in vines and rust, barricaded with rotting wood
+7. A flashlight beam cutting through pitch-black tunnel interior, dust particles floating in the light
+8. A blurry photograph of a white sign deep inside a dark tunnel, text partially unreadable, eerie mood
+9. A close-up of the same signboard but now displaying different handwritten characters, unsettling tone
+10. An empty forest road at night with no one in sight, a single dropped camera lying on the ground
 
 ## 投稿文・ハッシュタグ
-彼が「眠っていた」20年間、山の中で本当に何が起きていたのか——続きは次の動画で。フォローして待っててください。
+あの看板、誰が書き換えたのか——気になる人は続きが更新されるまでフォローして待ってて。
 
-#都市伝説 #神隠し #未解決事件 #怖い話 #ミステリー #日本の怪談 #山の怪異
+#都市伝説 #ミステリー #怖い話 #廃墟 #心霊スポット #未解決 #都市伝説好きな人と繋がりたい #tiktok怖い話
 
 ## 投稿前チェックリスト
 - [ ] 動画尺が60秒以上あるか(Creator Rewards Program対象条件)

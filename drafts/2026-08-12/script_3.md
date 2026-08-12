@@ -1,27 +1,27 @@
-# 世界一有名な未解決事件、D.B.クーパーはなぜ誰も見つけられなかったのか
+# 満員電車で聞こえる「7両目に来るな」という声
 
 ## 冒頭オーバーレイテキスト
-パラシュートで消えた男の謎
+その電車、7両目だけ避けられている
 
 ## 台本(ナレーション全文)
-1971年11月24日、アメリカでボーイング727がハイジャックされた。犯人は自らをダン・クーパーと名乗り、20万ドルの身代金とパラシュートを要求。要求はすべて通り、乗客を解放した後、彼は乗員だけを乗せたまま飛行機を上空約3000メートルで飛ばすよう指示した。そして後部の非常口を開け、身代金を抱えたまま真っ暗な夜空へと飛び降りた。以降、彼の姿を見た者は一人もいない。FBIは45年にわたり大規模な捜査を続けたが、遺体も装備も本人も発見できなかった。唯一の物証は、1980年に川辺で見つかった腐食した紙幣の束だけだった。彼が生きて着地できた可能性は低いとされる一方で、遺体が見つからない以上、死んだ証拠もない。犯人の正体も、身代金の行方も、今なお謎のままアメリカ史上唯一未解決のハイジャック事件として記録されている。
+関東の某路線、深夜0時台の下り電車には、ある共通した�444証言がある。7両目だけ、なぜか毎回空いているというのだ。混雑率200%を超える満員電車でも、7両目には誰も乗ろうとしない。ある会社員が理由も知らず7両目に乗った夜、耳元で「来るな」という囁きを聞いた。振り返っても誰もいない。次の駅で降りようとした瞬間、窓の外に自分と同じ服を着た人影が立っていたという。翌日、その車両で異臭騒ぎがあり運行が一時停止された。鉄道会社は「点検のため」と発表したが、点検記録は存在しなかった。実はこの路線、開業前に大規模な工事事故があった場所を通っており、慰霊碑もひっそりと近くに建てられている。7両目が停車する位置は、事故現場の真上にあたるという指摘もある。今夜もその電車は走っている。もし乗る機会があったら、7両目だけは避けたほうがいいかもしれない。
 
 ## Nano Banana 画像生成プロンプト
-1. A vintage 1970s commercial airplane flying through dark stormy clouds at night, cinematic, moody lighting
-2. Interior of an old airplane cabin, empty seats, dim emergency lighting, tense atmosphere
-3. A mysterious man in a suit and dark sunglasses sitting alone on a plane, back view, noir style
-4. A briefcase full of cash sitting on an airplane seat, dramatic lighting, shadows
-5. An open airplane emergency exit door at high altitude, wind and clouds visible, night scene
-6. A parachute silhouette falling into thick clouds against a dark sky, cinematic
-7. A dense dark forest at night seen from above, mysterious and foreboding atmosphere
-8. FBI agents in trench coats investigating a riverbank in the 1980s, foggy morning light
-9. Old decayed cash bundles found near a riverbank, weathered paper texture, moody tone
-10. A blank missing person file with a question mark silhouette, archival photo aesthetic, mysterious tone
+1. A dim, empty train platform at midnight with fog lingering under the lights, Japanese train station style, eerie atmosphere
+2. Interior of a crowded train car seen through foggy glass, one section strangely empty, cold blue tone
+3. A single train car interior at night, empty seats, flickering fluorescent light, unsettling stillness
+4. Close-up of a train window reflecting a blurry human silhouette standing outside on the tracks
+5. A businessman standing alone in a dim train car, looking over his shoulder nervously
+6. Exterior shot of a train passing through a dark tunnel, faint red emergency light glowing
+7. An old memorial stone half-hidden by grass near a railway track, dusk lighting, somber mood
+8. A maintenance worker's flashlight beam cutting through fog near train tracks at night
+9. A newspaper clipping mockup about a mysterious train delay, aged paper texture, dim lighting
+10. Wide shot of a night train speeding through the city, one car darker than the rest, cinematic mood
 
 ## 投稿文・ハッシュタグ
-彼はどこに消えたのか、50年経った今も誰も知らない。続きの考察も気になる人はフォローして待ってて。
+その電車に乗ったら、7両目だけは見なかったことにして──続きはコメントで教えます。フォローして次の都市伝説も見逃さないで。
 
-#都市伝説 #未解決事件 #ミステリー #DBクーパー #怖い話 #雑学 #tiktok教養
+#都市伝説 #怖い話 #電車の怪談 #不思議な話 #ミステリー
 
 ## 投稿前チェックリスト
 - [ ] 動画尺が60秒以上あるか(Creator Rewards Program対象条件)
