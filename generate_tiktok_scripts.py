@@ -29,7 +29,6 @@ NUM_SCRIPTS_PER_DAY = 3
 TOPICS_FILE = pathlib.Path("scripts/used_topics.json")
 DRAFTS_DIR = pathlib.Path("drafts")
 NOTION_VERSION = "2022-06-28"
-TITLE_PROPERTY_NAME = "Name"  # Notion DB側のタイトル列の名前に合わせて変更
 
 CHECKLIST_ITEMS = [
     "動画尺が60秒以上あるか(Creator Rewards Program対象条件)",
@@ -177,7 +176,31 @@ def markdown_to_notion_blocks(md_text: str) -> list[dict]:
     return blocks
 
 
-def push_to_notion(api_key: str, database_id: str, md_text: str, title: str) -> None:
+def get_title_property_name(api_key: str, database_id: str) -> str:
+    """データベースのタイトル列のプロパティ名を自動検出する。
+    Notionは言語設定によってデフォルトのタイトル列名が
+    "Name"だったり"名前"だったりするため、決め打ちにせず取得する。
+    """
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Notion-Version": NOTION_VERSION,
+    }
+    resp = requests.get(
+        f"https://api.notion.com/v1/databases/{database_id}",
+        headers=headers,
+        timeout=15,
+    )
+    resp.raise_for_status()
+    properties = resp.json()["properties"]
+    for name, meta in properties.items():
+        if meta.get("type") == "title":
+            return name
+    raise RuntimeError("データベースにタイトル型のプロパティが見つかりませんでした")
+
+
+def push_to_notion(
+    api_key: str, database_id: str, title_property_name: str, md_text: str, title: str
+) -> bool:
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Notion-Version": NOTION_VERSION,
@@ -186,7 +209,7 @@ def push_to_notion(api_key: str, database_id: str, md_text: str, title: str) -> 
     payload = {
         "parent": {"database_id": database_id},
         "properties": {
-            TITLE_PROPERTY_NAME: {"title": [{"text": {"content": title}}]}
+            title_property_name: {"title": [{"text": {"content": title}}]}
         },
         "children": markdown_to_notion_blocks(md_text),
     }
@@ -195,10 +218,12 @@ def push_to_notion(api_key: str, database_id: str, md_text: str, title: str) -> 
             "https://api.notion.com/v1/pages", headers=headers, json=payload, timeout=15
         )
         resp.raise_for_status()
+        return True
     except requests.RequestException as e:
         detail = getattr(e, "response", None)
         detail_text = detail.text if detail is not None else str(e)
-        print(f"Notionへの登録に失敗しました: {detail_text}")
+        print(f"Notionへの登録に失敗しました(タイトル: {title}): {detail_text}")
+        return False
 
 
 def main() -> None:
@@ -211,9 +236,13 @@ def main() -> None:
     out_dir = DRAFTS_DIR / date_str
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    title_property_name = get_title_property_name(notion_api_key, notion_database_id)
+    print(f"Notionデータベースのタイトル列: {title_property_name}")
+
     used_topics = load_used_topics()
     used_titles = [t["title"] for t in used_topics]
 
+    notion_failures = 0
     for i in range(1, NUM_SCRIPTS_PER_DAY + 1):
         md_body = generate_one_script_markdown(client, used_titles)
         md_full = append_checklist_markdown(md_body)
@@ -223,9 +252,21 @@ def main() -> None:
         used_topics.append({"title": title, "date": date_str})
 
         (out_dir / f"script_{i}.md").write_text(md_full, encoding="utf-8")
-        push_to_notion(notion_api_key, notion_database_id, md_full, title)
+        ok = push_to_notion(
+            notion_api_key, notion_database_id, title_property_name, md_full, title
+        )
+        if not ok:
+            notion_failures += 1
 
     save_used_topics(used_topics)
+
+    if notion_failures:
+        print(
+            f"{NUM_SCRIPTS_PER_DAY}本中{notion_failures}本のNotion登録に失敗しました。"
+            "drafts/にはMarkdownは保存済みです。"
+        )
+        raise SystemExit(1)
+
     print(f"{NUM_SCRIPTS_PER_DAY}本の台本を {out_dir} に生成し、Notionにも登録しました。")
 
 
