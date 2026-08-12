@@ -2,6 +2,8 @@
 TikTok 都市伝説・ミステリー系アカウント向け 台本自動生成スクリプト
 
 毎日実行され、Claude(Sonnet)がMarkdown形式で台本を3本生成する。
+台本の形式は「単発ストーリー(60〜90秒)」と「不思議ランキングベスト3(90〜120秒)」の
+2種類があり、1本ごとにランダムでどちらかが選ばれる。
 生成結果は
   1. drafts/YYYY-MM-DD/script_N.md としてローカル(リポジトリ内)に保存
   2. Notionデータベースに1本ずつページとして自動登録
@@ -19,6 +21,7 @@ TikTok 都市伝説・ミステリー系アカウント向け 台本自動生成
 import os
 import re
 import json
+import random
 import datetime
 import pathlib
 import requests
@@ -38,7 +41,8 @@ CHECKLIST_ITEMS = [
     "投稿時間は日本時間21〜23時台を目安に調整したか",
 ]
 
-SYSTEM_PROMPT = """あなたはTikTok向け都市伝説・ミステリー系動画の台本作家です。
+# 単発ストーリー形式(60〜90秒想定)
+SYSTEM_PROMPT_STORY = """あなたはTikTok向け都市伝説・ミステリー系動画の台本作家です。
 以下のMarkdown形式のみを出力してください。前置き・説明文・```での囲みは一切不要です。1行目は必ず「# タイトル」から始めてください。
 
 # (ここに動画タイトル)
@@ -67,6 +71,43 @@ SYSTEM_PROMPT = """あなたはTikTok向け都市伝説・ミステリー系動�
 - 見出しの文言(## 冒頭オーバーレイテキスト など)は指定のまま変更しない
 """
 
+# ランキング形式(3項目・90〜120秒想定、1分超えを狙う)
+SYSTEM_PROMPT_RANKING = """あなたはTikTok向け「世界の不思議・謎ランキング系」動画の台本作家です。
+以下のMarkdown形式のみを出力してください。前置き・説明文・```での囲みは一切不要です。1行目は必ず「# タイトル」から始めてください。
+
+# (ここに動画タイトル。例: 世界の理解できない文化ベスト3)
+
+## 冒頭オーバーレイテキスト
+(冒頭3秒に表示するテキスト。20文字以内)
+
+## 台本(ナレーション全文)
+(700〜900文字程度。改行を入れず1段落で。淡々とした解説調。
+ 「導入フック→第3位→第2位→第1位→締めの一言」の構成にする。
+ 各項目には具体的なエピソードや事実を1〜2文添え、単なる列挙にしない)
+
+## Nano Banana 画像生成プロンプト
+1. (シーン1の情景描写。英語)
+2. (シーン2の情景描写。英語)
+(以降、合計10〜12個。導入1〜2枚＋各順位3枚程度を目安に配分する)
+
+## 投稿文・ハッシュタグ
+(続きが気になる一文＋フォロー誘導のキャプション文)
+
+(ハッシュタグを半角スペース区切りで1行。例: #雑学 #ランキング #海外の反応)
+
+ルール:
+- ネタは「世界の不思議な文化・風習」「理解できないルールや伝統」「奇妙な記録・出来事」のいずれかから3項目選び、ランキング形式で紹介する
+- 特定の実在の個人を不必要に貶める表現は避ける
+- グロテスクな描写は避け、驚きや意外性を重視したトーンにする
+- 既に使用済みのネタは絶対に重複させない
+- 見出しの文言(## 冒頭オーバーレイテキスト など)は指定のまま変更しない
+"""
+
+FORMAT_PROMPTS = {
+    "story": SYSTEM_PROMPT_STORY,
+    "ranking": SYSTEM_PROMPT_RANKING,
+}
+
 
 def load_used_topics() -> list[dict]:
     if TOPICS_FILE.exists():
@@ -81,7 +122,16 @@ def save_used_topics(topics: list[dict]) -> None:
     )
 
 
-def generate_one_script_markdown(client: anthropic.Anthropic, used_titles: list[str]) -> str:
+def generate_one_script_markdown(
+    client: anthropic.Anthropic, used_titles: list[str], format_type: str | None = None
+) -> tuple[str, str]:
+    """台本を1本生成する。format_typeを省略した場合は
+    "story"(単発ストーリー)と"ranking"(ベスト3形式)からランダムに選ぶ。
+    戻り値は (format_type, 生成されたMarkdown本文)。
+    """
+    format_type = format_type or random.choice(list(FORMAT_PROMPTS.keys()))
+    system_prompt = FORMAT_PROMPTS[format_type]
+
     recent = used_titles[-30:]
     user_prompt = (
         f"直近で使用済みのネタ一覧(重複禁止): {recent}\n\n"
@@ -90,14 +140,14 @@ def generate_one_script_markdown(client: anthropic.Anthropic, used_titles: list[
     resp = client.messages.create(
         model=MODEL,
         max_tokens=2000,
-        system=SYSTEM_PROMPT,
+        system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
     )
     text = resp.content[0].text.strip()
     # まれにコードブロックで囲まれて返ってきた場合の保険(```markdown ... ``` を剥がす)
     text = re.sub(r"^```(markdown)?\n?", "", text)
     text = re.sub(r"\n?```$", "", text)
-    return text.strip()
+    return format_type, text.strip()
 
 
 def append_checklist_markdown(md_text: str) -> str:
@@ -244,12 +294,13 @@ def main() -> None:
 
     notion_failures = 0
     for i in range(1, NUM_SCRIPTS_PER_DAY + 1):
-        md_body = generate_one_script_markdown(client, used_titles)
+        format_type, md_body = generate_one_script_markdown(client, used_titles)
         md_full = append_checklist_markdown(md_body)
         title = extract_title(md_body)
+        print(f"[{i}/{NUM_SCRIPTS_PER_DAY}] 形式: {format_type} / タイトル: {title}")
 
         used_titles.append(title)
-        used_topics.append({"title": title, "date": date_str})
+        used_topics.append({"title": title, "date": date_str, "format": format_type})
 
         (out_dir / f"script_{i}.md").write_text(md_full, encoding="utf-8")
         ok = push_to_notion(
