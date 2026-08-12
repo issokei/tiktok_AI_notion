@@ -1,0 +1,39 @@
+# このファイルは .github/workflows/generate_tiktok_scripts.yml として
+# リポジトリに配置してください。
+
+name: Generate TikTok Scripts
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # 毎日 JST 6:00 (UTC 21:00 前日)
+  workflow_dispatch: {} # 手動実行テスト用
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install anthropic requests
+
+      - name: Generate scripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python generate_tiktok_scripts.py
+
+      - name: Commit generated drafts
+        run: |
+          git config user.name "tiktok-script-bot"
+          git config user.email "actions@github.com"
+          git add drafts scripts/used_topics.json
+          git commit -m "台本自動生成: $(date +'%Y-%m-%d')" || echo "変更なし"
+          git push
