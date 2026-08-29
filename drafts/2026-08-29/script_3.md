@@ -1,29 +1,27 @@
-# 世界の理解できない「奇妙な挨拶文化」ベスト3
+# 誰も注文していない「出前」が届き続けた、あるアパートの一室
 
 ## 冒頭オーバーレイテキスト
-その挨拶、意味を知ったら鳥肌
+頼んでいない出前が、毎晩届いた
 
 ## 台本(ナレーション全文)
-世界には、挨拶ひとつとっても常識が通じない場所がある。今日はその中でも特に理解しがたい3つを紹介する。第3位、ニュージーランドのマオリ族に伝わる「ホンギ」。これは鼻と鼻をくっつけて息を交換する挨拶で、相手の生命の息吹を分け合うという意味が込められている。初対面でもこの距離感が当たり前とされ、外国人観光客は最初かなり戸惑うという。第2位、チベットの一部地域に残る「舌出し挨拶」。相手に舌を見せることで「自分は悪魔ではない」と証明する風習で、かつて悪名高い暴君が黒い舌を持っていたという伝説に由来する。今でも観光客に舌を出して挨拶するお年寄りがいる。第1位、フランス発祥ともいわれる「ビズ」。頬を合わせてキスの音を立てる挨拶だが、地域によって回数が1回から4回までバラバラで、フランス人同士でも「これは何回の地域?」と確認し合うことがあるという、実にややこしい文化だ。挨拶は世界共通のようでいて、実はその土地の歴史や信仰が色濃く反映されている。次にどこかの国を訪れる時は、握手だけで済むと思わない方がいいかもしれない。
+1998年、地方都市のあるアパートで起きた話。201号室に一人暮らしの男性が引っ越してきてから数日後、深夜0時ちょうどに出前の蕎麦屋が訪れるようになった。男性は注文していないと断るが、店員は「間違いなくこの部屋から電話があった」と譲らない。それが毎晩続き、ついに男性が店に確認すると、注文の電話番号は前の入居者のものだった。前の入居者は半年前、この部屋で孤独死していた。奇妙なのはここからだ。蕎麦屋の記録には、その入居者が死んだ「後」の日付でも、注文の履歴が残り続けていたという。誰が電話をかけていたのか、店側も説明できなかった。男性はその後すぐに引っ越したが、後日、蕎麦屋の店主が言った一言が忘れられないという。「あの部屋、まだ注文が入ってるんですよ」。
 
 ## Nano Banana 画像生成プロンプト
-1. A dim world map glowing with pins on different countries, mysterious atmosphere, cinematic lighting
-2. Close-up of two hands about to shake, question marks floating around, dramatic shadows
-3. Two Maori people pressing noses together in a traditional greeting, New Zealand landscape background, warm sunset light
-4. Detailed illustration of the Maori hongi greeting, close-up of foreheads and noses touching, cultural patterns in background
-5. Wide shot of a New Zealand marae with people gathering for a ceremonial greeting, misty mountains behind
-6. An elderly Tibetan person sticking out their tongue in greeting, colorful prayer flags in background, high altitude village
-7. Ancient Tibetan palace with a shadowy figure representing a legendary dark-tongued tyrant, historical painting style
-8. Tibetan village street scene with locals greeting travelers with tongue-out gesture, mountain backdrop
-9. Two French people leaning in for a cheek kiss greeting on a Parisian street, cafe background, soft daylight
-10. Illustration showing a map of France with different numbers like 1,2,3,4 marking cheek-kiss regions, infographic style
-11. Confused tourist counting on fingers while French locals lean in for bise greeting, comedic expression
-12. Silhouettes of people from different cultures greeting each other in unique ways, converging into one globe image, final cinematic shot
+1. A dim narrow apartment hallway at midnight, single flickering fluorescent light, Japanese apartment building, eerie atmosphere
+2. A small soba delivery bicycle parked outside an old apartment building at night, mist in the air, muted colors
+3. A closed door numbered "201" with a faint light leaking from underneath, quiet corridor, unsettling mood
+4. An old rotary telephone sitting alone on tatami floor, dust particles in dim light, abandoned room feeling
+5. A delivery receipt book with handwritten notes, close-up, soft warm lamp light, slightly worn paper texture
+6. Empty soba bowl left on a doorstep outside an apartment door, steam rising faintly, night scene
+7. A lonely apartment room interior, single futon, no personal belongings, cold blue moonlight through window
+8. A small soba restaurant counter at night, old shopkeeper silhouette, warm interior light contrasting with dark street
+9. A calendar on the wall showing a date circled in red, dust covering the room, abandoned atmosphere
+10. A foggy apartment building exterior at night, one window faintly lit on the second floor, ominous quiet mood
 
 ## 投稿文・ハッシュタグ
-知らずに海外で挨拶したら気まずいことになるかも…続きが気になる人はフォローして次の雑学もチェック!
+その部屋、今も誰かが注文しているかもしれない――続きが気になる人はフォローして次の話も見てください。
 
-#雑学 #世界の不思議 #文化の違い #海外の反応 #ランキング #TikTok学園 #豆知識 #異文化
+#都市伝説 #怖い話 #ミステリー #実話怪談 #不思議な話 #孤独死 #謎の出前 #ホラー好きと繋がりたい
 
 ## 投稿前チェックリスト
 - [ ] 動画尺が60秒以上あるか(Creator Rewards Program対象条件)

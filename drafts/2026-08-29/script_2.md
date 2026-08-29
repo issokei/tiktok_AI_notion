@@ -1,29 +1,29 @@
-# 世界の理解できない「奇妙な所有・財産文化」ベスト3
+# 世界の理解できない「奇妙な裁判・司法制度」ベスト3
 
 ## 冒頭オーバーレイテキスト
-そのルール、誰が得するの?
+動物が被告席に立った裁判、実在します
 
 ## 台本(ナレーション全文)
-世界には、財産や所有物に関して常識では測れない文化が存在する。第3位、モンゴル一部地域に伝わる「星の所有権」。遊牧民の間では特定の星を家族の守護星として代々受け継ぐ風習があり、他人がその星に関する話をすることすら失礼とされる。もちろん法的効力はないが、破ると縁談が破談になった例もあるという。第2位、パプアニューギニアの一部部族に残る「影の所有」。人の影を踏むことは、その人の財産や運を奪う行為とみなされ、日中の移動時間まで影の向きで管理される村がある。実際に誤って影を踏んだ旅行者が、謝罪の品を求められた記録も残っている。そして第1位、インドネシアのある島に伝わる「借金は魂に引き継がれる」という考え方。返済されないまま死んだ借金は、遺族ではなく本人の魂が来世で払い続けるとされ、葬式の際に紙幣を燃やして「返済」を模す儀式が今も行われている。合理性では説明できないこれらの文化。だが、それを何百年も守り続けてきた人々がいるという事実こそが、最大の謎なのかもしれない。
+世界には、常識では測れない裁判制度が存在する。第3位、中世ヨーロッパで実際に行われていた「動物裁判」。豚や鼠、さらにはイナゴまでもが正式に起訴され、弁護士が選任され、法廷で裁かれた記録が残っている。1457年にはフランスで、子供を襲った豚に死刑判決が下され、豚には人間と同じ服を着せて処刑されたという。第2位、インドネシアの一部地域に伝わる「恥の刑」。罪を犯した者は牢に入れられる代わりに、村の広場で自分の罪状を書いた看板を首から下げ、一日中立たされ続ける。身体的な苦痛はないが、村中の視線にさらされることこそが最大の罰だとされている。第1位、アメリカのある州に今も残る「決闘裁判」の法的余地。近代法の整備が進む中で削除し忘れられた古い条文により、理論上は今でも合意の上での決闘で紛争を解決することが可能だという。もちろん実際に行使されることはないが、廃止されずに残り続けていること自体が異様だと専門家は指摘する。正義の形は、時代と場所によってここまで違う。あなたの常識も、どこかでは非常識かもしれない。
 
 ## Nano Banana 画像生成プロンプト
-1. A vast night sky over Mongolian steppe, countless stars, silhouette of a nomadic tent, mysterious atmosphere
-2. Close-up of an elderly Mongolian herder pointing at a specific star, warm firelight on face
-3. Dense Papua New Guinea rainforest village at midday, long sharp shadows on the ground
-4. A tribesperson carefully stepping around another person's shadow, tense expression
-5. Traditional apology gift being offered in a jungle village setting, cultural tension
-6. An Indonesian island village at dusk, traditional houses, quiet and solemn mood
-7. A funeral ceremony with paper money being burned, smoke rising into the sky
-8. Close-up of hands folding paper currency for a ritual burning ceremony
-9. An elderly person praying beside a grave, incense smoke drifting
-10. A dark mysterious ocean horizon viewed from an Indonesian shoreline, symbolic of the afterlife
-11. Collage-style image showing a star, a shadow, and burning paper money together, symbolic composition
-12. A question mark formed by candle smoke in a dark room, mysterious ending shot
+1. A dark medieval courtroom with flickering candlelight, mysterious and ominous atmosphere, wide shot
+2. Ancient European stone courthouse exterior, foggy morning, historical atmosphere
+3. Medieval illustration style courtroom scene with a judge's bench, animal silhouette in the dock, dramatic lighting
+4. A pig dressed in tiny medieval clothing standing before a solemn judge, satirical historical painting style
+5. Old parchment document with court seal, close-up, aged paper texture, candlelight
+6. A quiet Indonesian village square at dusk, wooden stocks, warm lantern light, contemplative mood
+7. A wooden sign hanging around an empty stool in a village square, soft morning light, symbolic shot
+8. Villagers silhouettes walking past a public square, judgmental atmosphere, golden hour lighting
+9. An old dusty American courthouse archive room, forgotten law books piled high, dramatic light beam
+10. Close-up of an antique legal document with a small overlooked clause highlighted, dust particles in light
+11. Two silhouettes facing each other at dawn in an open field, symbolic duel concept, misty atmosphere
+12. A gavel resting on an old wooden desk, dramatic spotlight, mysterious and thought-provoking mood
 
 ## 投稿文・ハッシュタグ
-この続き、あなたの国にも似た風習ないですか?気になる人はフォローして次の話も見てね
+まさかの動物裁判…続きが気になる人はフォローして次の「世界の不思議」も見逃さないで👀⚖️
 
-#世界の不思議 #奇妙な文化 #雑学 #ランキング #都市伝説
+#雑学 #ランキング #海外の反応 #都市伝説 #裁判 #世界の不思議 #豆知識 #歴史の闇
 
 ## 投稿前チェックリスト
 - [ ] 動画尺が60秒以上あるか(Creator Rewards Program対象条件)
