@@ -1,27 +1,27 @@
-# 樹海の奥にある「電話ボックス」が今も鳴り続ける理由
+# 廃遊園地の「観覧車運行記録」に今も残され続ける謎の署名
 
 ## 冒頭オーバーレイテキスト
-圏外の森に、電話が一台だけある
+閉園20年、記録は止まらない
 
 ## 台本(ナレーション全文)
-富士山麓の樹海、携帯電波が完全に途絶える一角に、誰が設置したのかも分からない古い電話ボックスがひっそりと立っている。登山者や調査員が偶然見つけ、好奇心で受話器を取ると、ツーという発信音ではなく、か細い女性の声で「もしもし、もしもし」とだけ聞こえてくるという。周囲には電線もケーブルも繋がっておらず、電力会社も通信会社も「そんな設備は存在しない」と回答している。にもかかわらず、受話器を置いた人間の携帯電話には後日、非通知の着信履歴が一件だけ残る。着信時刻は決まって、電話ボックスで受話器を取った時刻と完全に一致しているそうだ。最近SNSで位置情報を特定しようとした配信者がいたが、配信は森に入った直後ぷつりと途切れ、以降一切更新されていない。
+関東近郊にある、1998年に閉園した遊園地。観覧車だけが解体されずに残され、立入禁止のまま放置されている。数年前、廃墟マニアが管理事務所に侵入した際、壁に掛けられたままの「観覧車運行記録簿」を発見した。本来なら閉園の日で記録は終わっているはずだった。しかし黄ばんだページをめくっていくと、閉園後の日付にも運行記録と署名が続いていたという。署名の筆跡は毎回同じ、崩れた丸文字。当時の従業員名簿には存在しない名前だった。記録には「満員」「異常なし」とだけ書かれ、天候欄には不可解なことに常に「快晴」としか記されていない。雨の日も雪の日も、記録上は快晴。地元では、その観覧車が今も夜間だけ低速で回転しているという目撃談があり、ゴンドラの数を数えると、なぜか閉園当時より一つ多いと言われている。
 
 ## Nano Banana 画像生成プロンプト
-1. A dense, misty forest with twisted dark trees, no sunlight reaching the ground, eerie silence, photorealistic
-2. An old weathered phone booth standing alone deep in a foggy forest, vines creeping over the glass, abandoned atmosphere
-3. Close-up of a dusty rotary phone receiver hanging off the hook inside the booth, dim light
-4. A hiker's silhouette approaching the phone booth from a distance, fog swirling around their feet
-5. Hand reaching toward the old telephone receiver, tension in the dark forest
-6. Empty forest clearing with no visible power lines or cables near the booth, mysterious
-7. A smartphone screen showing a missed call notification from an unknown number, dark room
-8. Wide shot of the sea of trees (Aokigahara-like forest) under pale moonlight, foreboding mood
-9. A laptop screen showing a frozen live stream with static distortion, forest background visible
-10. The phone booth standing alone at dusk, fog thickening around it, ominous and quiet
+1. An abandoned Ferris wheel silhouetted against a dim evening sky, rust covering the metal frame, eerie stillness
+2. A deserted amusement park entrance overgrown with weeds, faded signboard barely readable
+3. A dusty old logbook lying open on a cracked wooden desk inside an abandoned office
+4. Close-up of yellowed logbook pages filled with handwritten entries in fading ink
+5. A mysterious round childish signature repeated across multiple logbook pages
+6. Empty gondolas of a rusted Ferris wheel swaying slightly in the wind at dusk
+7. A foggy night scene showing the Ferris wheel's silhouette slowly turning with no one around
+8. An old employee roster pinned to a corkboard, covered in dust and cobwebs
+9. A single gondola seat hanging unusually still among others gently swinging
+10. Wide shot of the entire abandoned amusement park shrouded in thick mist under moonlight
 
 ## 投稿文・ハッシュタグ
-もしあなたがその電話を見つけても、絶対に受話器は取らないでください。続きはコメント欄で→
+記録はまだ、終わっていない――続きが気になる人はフォローして次の検証もチェック。
 
-#都市伝説 #心霊スポット #樹海 #不思議な話 #ミステリー #怖い話 #日本の都市伝説
+#都市伝説 #廃墟 #ミステリー #怖い話 #不思議な話 #閉園遊園地 #観覧車 #意味がわかると怖い話
 
 ## 投稿前チェックリスト
 - [ ] 動画尺が60秒以上あるか(Creator Rewards Program対象条件)
